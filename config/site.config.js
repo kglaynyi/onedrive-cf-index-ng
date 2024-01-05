@@ -40,7 +40,7 @@ module.exports = {
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // https://1drive4nlin.pages.dev/api/raw?path=/Apps/.password.txt
   // This is the path relative to `baseDirectory` above, not relative to root in your Onedrive.
-  protectedRoutes: ['/Movies'],
+  protectedRoutes: ['/Private', '/Demo/Movies'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: "",
